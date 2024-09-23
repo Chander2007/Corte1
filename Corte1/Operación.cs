@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Corte1
 {
-    internal class Operación
+    public class Operacion
     {
         public static int CalcularEdad(DateTime fechaNacimiento)
         {

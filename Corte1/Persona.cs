@@ -20,10 +20,6 @@ namespace Corte1
             FechaNacimiento = fechaNacimiento;
             Ciudad = ciudad;
         }
-
-        public override string ToString()
-        {
-            return $"{Nombres} {Apellidos}, Nacido el: {FechaNacimiento.ToShortDateString()}, Ciudad: {Ciudad}";
-        }
     }
 }
+

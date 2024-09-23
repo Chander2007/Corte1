@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|c:\\users\\dxand\\onedrive\\escritorio\\corte1\\corte1\\registro de edades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:registro de edades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|c:\\users\\dxand\\onedrive\\escritorio\\corte1\\corte1\\registro edades dg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:registro edades dg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|c:\\users\\dxand\\onedrive\\escritorio\\corte1\\corte1\\registro de edades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:registro de edades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|c:\\users\\dxand\\onedrive\\escritorio\\corte1\\corte1\\registro edades dg.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:registro edades dg.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\registro edades dg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:registro edades dg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\operaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:operaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|c:\\users\\dxand\\onedrive\\escritorio\\corte1\\corte1\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|c:\\users\\dxand\\onedrive\\escritorio\\corte1\\corte1\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F656190D-06CE-42B8-B923-F1A5FA81BEC2}|Corte1.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registro de edades.cs",
-              "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro de edades.cs",
-              "RelativeDocumentMoniker": "Registro de edades.cs",
-              "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro de edades.cs",
-              "RelativeToolTip": "Registro de edades.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAApwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T14:28:08.28Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registro edades DG.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro edades DG.Designer.cs",
+              "RelativeDocumentMoniker": "Registro edades DG.Designer.cs",
+              "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro edades DG.Designer.cs*",
+              "RelativeToolTip": "Registro edades DG.Designer.cs*",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAhwHAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:29:13.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro.cs",
+              "RelativeDocumentMoniker": "Registro.cs",
+              "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro.cs",
+              "RelativeToolTip": "Registro.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:48:49.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Registro edades DG.cs",
+              "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro edades DG.cs",
+              "RelativeDocumentMoniker": "Registro edades DG.cs",
+              "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro edades DG.cs*",
+              "RelativeToolTip": "Registro edades DG.cs*",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:28:08.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Operaci\u00F3n.cs",
               "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Operaci\u00F3n.cs",
               "RelativeDocumentMoniker": "Operaci\u00F3n.cs",
               "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Operaci\u00F3n.cs",
               "RelativeToolTip": "Operaci\u00F3n.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T14:18:29.715Z",
               "EditorCaption": ""
@@ -66,7 +100,7 @@
               "RelativeDocumentMoniker": "Persona.cs",
               "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Persona.cs",
               "RelativeToolTip": "Persona.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T14:18:14.477Z",
               "EditorCaption": ""
@@ -74,11 +108,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Registro de edades.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro de edades.cs",
-              "RelativeDocumentMoniker": "Registro de edades.cs",
-              "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro de edades.cs [Design]",
-              "RelativeToolTip": "Registro de edades.cs [Design]",
+              "Title": "Registro edades DG.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro edades DG.cs",
+              "RelativeDocumentMoniker": "Registro edades DG.cs",
+              "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\Corte1\\Corte1\\Registro edades DG.cs [Design]*",
+              "RelativeToolTip": "Registro edades DG.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T14:17:51.649Z",
               "EditorCaption": " [Design]"
