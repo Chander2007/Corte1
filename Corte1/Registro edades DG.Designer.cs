@@ -37,6 +37,7 @@
             this.lbShow = new System.Windows.Forms.ListBox();
             this.cbCities = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnShow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,7 +97,7 @@
             this.lbShow.ItemHeight = 16;
             this.lbShow.Location = new System.Drawing.Point(38, 200);
             this.lbShow.Name = "lbShow";
-            this.lbShow.Size = new System.Drawing.Size(410, 212);
+            this.lbShow.Size = new System.Drawing.Size(506, 212);
             this.lbShow.TabIndex = 7;
             this.lbShow.SelectedIndexChanged += new System.EventHandler(this.lbShow_SelectedIndexChanged);
             // 
@@ -118,11 +119,22 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Ciudad:";
             // 
+            // btnShow
+            // 
+            this.btnShow.Location = new System.Drawing.Point(359, 171);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(75, 23);
+            this.btnShow.TabIndex = 11;
+            this.btnShow.Text = "Mostrar";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cbCities);
             this.Controls.Add(this.lbShow);
@@ -151,6 +163,7 @@
         private System.Windows.Forms.ListBox lbShow;
         private System.Windows.Forms.ComboBox cbCities;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnShow;
     }
 }
 

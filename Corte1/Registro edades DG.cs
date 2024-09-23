@@ -32,30 +32,30 @@ namespace Corte1
             // Configurar el DateTimePicker a la fecha actual
             dateTimePicker1.Value = DateTime.Now;
 
-            // Cambiar el título del formulario con tus iniciales
+            
             this.Text = "Registro de edades - DG"; 
         }
 
         private void tbName_TextChanged(object sender, EventArgs e)
         {
-            // Puedes agregar validaciones o lógica adicional si lo deseas
+            
         }
 
         private void tbLastName_TextChanged(object sender, EventArgs e)
         {
-            // Puedes agregar validaciones o lógica adicional si lo deseas
+            
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            // Verificar que se haya seleccionado una ciudad
+            // Verificacion ciudad
             if (cbCities.SelectedItem == null)
             {
                 MessageBox.Show("Por favor, seleccione una ciudad.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Crear la persona pasando los parámetros requeridos al constructor
+            // Crear la persona 
             Persona persona = new Persona(
                 tbName.Text,
                 tbLastName.Text,
@@ -63,10 +63,10 @@ namespace Corte1
                 cbCities.SelectedItem.ToString()
             );
 
-            // Intentar agregar la persona al registro
+            // Agregamos la persona
             bool agregado = registro.AgregarPersona(persona);
 
-            // Verificar si fue agregada o no
+            // Verificación
             if (agregado)
             {
                 // Mostrar los detalles en el ListBox
@@ -82,21 +82,21 @@ namespace Corte1
 
         private void btnAddAge_Click(object sender, EventArgs e)
         {
-            // Verificar que haya al menos una persona en el registro
+          
             if (registro.ObtenerPersonas().Count == 0)
             {
                 MessageBox.Show("No hay personas registradas para calcular la edad.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
-            // Verificar que se haya seleccionado una persona en el ListBox
+            
             if (lbShow.SelectedIndex == -1)
             {
                 MessageBox.Show("Por favor, seleccione una persona de la lista para calcular su edad.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Obtener la persona seleccionada
+            
             int index = lbShow.SelectedIndex;
             Persona personaSeleccionada = registro.ObtenerPersonas()[index];
 
@@ -111,15 +111,15 @@ namespace Corte1
 
         private void lbShow_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Lógica adicional si es necesario al seleccionar una persona
+            
         }
 
         private void cbCities_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Lógica adicional si es necesario al cambiar la ciudad
+            
         }
 
-        // Método para limpiar los campos de entrada después de agregar una persona
+        // Limpiamos
         private void LimpiarCampos()
         {
             tbName.Clear();
@@ -127,6 +127,28 @@ namespace Corte1
             dateTimePicker1.Value = DateTime.Now; // Restablecer a la fecha actual
             if (cbCities.Items.Count > 0)
                 cbCities.SelectedIndex = 0;
+        }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            // Limpiar ListBox 
+            lbShow.Items.Clear();
+
+            // Obtener la lista 
+            var personas = registro.ObtenerPersonas();
+
+            // Verificar si hay personas registradas
+            if (personas.Count == 0)
+            {
+                MessageBox.Show("No hay personas registradas.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            // Recorrer la lista y añadir cada persona al ListBox
+            foreach (var persona in personas)
+            {
+                lbShow.Items.Add($"{persona.Nombres} {persona.Apellidos}, Ciudad: {persona.Ciudad}, Fecha de Nacimiento: {persona.FechaNacimiento.ToShortDateString()}");
+            }
         }
     }
 }
