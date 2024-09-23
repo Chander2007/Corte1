@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Registro de edades.cs">
+    <Compile Include="Registro edades DG.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registro de edades.Designer.cs">
-      <DependentUpon>Registro de edades.cs</DependentUpon>
+    <Compile Include="Registro edades DG.Designer.cs">
+      <DependentUpon>Registro edades DG.cs</DependentUpon>
     </Compile>
     <Compile Include="Operación.cs" />
     <Compile Include="Persona.cs" />
@@ -65,8 +65,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Registro de edades.resx">
-      <DependentUpon>Registro de edades.cs</DependentUpon>
+    <EmbeddedResource Include="Registro edades DG.resx">
+      <DependentUpon>Registro edades DG.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
