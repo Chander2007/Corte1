@@ -33,7 +33,7 @@ namespace Corte1
             dateTimePicker1.Value = DateTime.Now;
 
             // Cambiar el título del formulario con tus iniciales
-            this.Text = "Registro de edades - AB"; // Reemplaza "AB" con tus iniciales
+            this.Text = "Registro de edades - DG"; 
         }
 
         private void tbName_TextChanged(object sender, EventArgs e)
